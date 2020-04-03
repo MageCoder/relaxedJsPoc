@@ -16,6 +16,12 @@ console.debug(program);
     await HTML2PDF._initializePlugins();
     await HTML2PDF.pdf('./templates/test.pug', {"a":"b", "c":"d"});
 
+    // TODO: check for generated pdf
+
+    // read pdf 
+
+    // output pdf stream to response
+
     if (program.buildOnce) {
         process.exit(0)
     } 
